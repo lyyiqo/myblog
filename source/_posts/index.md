@@ -1,12 +1,10 @@
 ---
-title: 哈哈哈哈
+title: PS之图片处理
 date: 2017-03-10 22:56:15
 categories: Diary
 tags: test2
 ---
-# 第一篇
----- 看看分格的效果
-**加粗**
+![][image-1]
+> 原图是这样的
 
-	爱的世界福利局阿费德勒；
-	考多少分骄傲了；
+[image-1]:	/images/DSC03769.JPG
