@@ -20,6 +20,7 @@ More info: [Writing][5]
 ``` bash
 $ hexo server
 ```
+<!-- more -->
 
 More info: [Server][6]
 
