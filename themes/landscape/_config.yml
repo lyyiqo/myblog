@@ -38,10 +38,10 @@ seo: false
 menu:
   home: /
   categories: /categories
-  about: /about
+  #about: /about
   archives: /archives
   tags: /tags
-  search: /search
+  #search: /search
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -198,12 +198,12 @@ sidebar:
   scrollpercent: false
 
 
-# Blog rolls
-#links_title: Links
-#links_layout: block
+# Blog rolls    ##侧边栏链接设置
+links_title: 推荐链接
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  百度: http://www.baidu..com/
 
 
 # ---------------------------------------------------------------
@@ -262,7 +262,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night blue
 
 
 # ---------------------------------------------------------------
