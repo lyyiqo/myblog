@@ -17,7 +17,7 @@ $grey-dark    = #999
 $grey-dim     = #666
 $black-light  = #555
 $black-dim    = #333
-$black-deep   = #222
+$black-deep   = #af0e1a
 $red          = #ff2a2a
 $blue-bright  = #87daff
 $blue         = #0684bd
@@ -34,8 +34,8 @@ $orange       = #fc6423
 $text-color                   = $black-light
 
 // Global link color.
-$link-color                   = $black-light
-$link-hover-color             = $black-deep
+$link-color                   = $blue-light
+$link-hover-color             = $blue-deep
 $link-decoration-color        = $grey-light
 $link-decoration-hover-color  = $black-deep
 
@@ -62,7 +62,7 @@ get_font_family(config) {
 }
 
 // Font families.
-$font-family-chinese      = "PingFang SC", "Microsoft YaHei"
+$font-family-chinese      = "Microsoft YaHei",Georgia, sans // 标题，修改成你期望的字体族
 
 $font-family-base         = $font-family-chinese, sans-serif
 $font-family-base         = get_font_family('global'), $font-family-chinese, sans-serif if get_font_family('global')
@@ -91,7 +91,7 @@ $font-weight-bolder       = 700
 
 
 // Font size
-$font-size-base           = 14px
+$font-size-base           = 18px
 $font-size-small          = $font-size-base - 2px
 $font-size-smaller        = $font-size-base - 4px
 $font-size-large          = $font-size-base + 2px
@@ -100,7 +100,7 @@ $font-size-larger         = $font-size-base + 4px
 
 // Headings font size
 $font-size-headings-step    = 2px
-$font-size-headings-base    = 24px
+$font-size-headings-base    = 26px
 $font-size-headings-small   = $font-size-headings-base - $font-size-headings-step
 $font-size-headings-smaller = $font-size-headings-small - $font-size-headings-step
 $font-size-headings-large   = $font-size-headings-base + $font-size-headings-step
@@ -142,7 +142,7 @@ $table-row-hover-bg-color       = $whitesmoke
 // Code & Code Blocks
 // --------------------------------------------------
 $code-font-family               = $font-family-monospace
-$code-font-size                 = 13px
+$code-font-size                 = 16px
 $code-font-size                 = unit(hexo-config('font.codes.size'), px) if hexo-config('font.codes.size') is a 'unit'
 $code-border-radius             = 3px
 $code-foreground                = $black-light

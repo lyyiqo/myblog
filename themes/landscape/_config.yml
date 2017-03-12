@@ -100,26 +100,26 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Roboto Slab
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Microsoft YaHei
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: 
+    size: 35px
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: PT Mono
     size:
 
 
