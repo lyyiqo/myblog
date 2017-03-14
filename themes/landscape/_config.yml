@@ -292,7 +292,7 @@ disqus_shortname: lyyiqo
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+#gentie_productKey: “2e42659aca9e4269b37a74f9b04a0215”
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -521,3 +521,5 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+url: http://www.lyyiqo.win
